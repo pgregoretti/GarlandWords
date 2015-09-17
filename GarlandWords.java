@@ -25,9 +25,7 @@ public class GarlandWords {
 				garChain(s, 5);
 			}
 		}
-
 		maxGarFind("enable1.txt");
-		
 	}
 
 	public static int garDeg(String str){
@@ -51,7 +49,6 @@ public class GarlandWords {
 		for(int i=1; i<repeatVal; i++){
 			str += strChain;
 		}
-		
 		System.out.println(str);
 	}
 	
@@ -73,5 +70,4 @@ public class GarlandWords {
 		System.out.println("The largest Garland word is " + maxGar + " with degree " + maxDeg + "!");
 		garChain(maxGar, 5);
 	}
-
 }
