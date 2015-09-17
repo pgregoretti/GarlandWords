@@ -64,7 +64,7 @@ public class GarlandWords {
 		
 		while(input.hasNextLine()) {
 			garCheck = input.nextLine(); 
-			degCheck = garDeg(garCheck); //reduces amount of time spent checking for deg
+			degCheck = garDeg(garCheck);
 			if(degCheck > maxDeg){
 				maxGar = garCheck;
 				maxDeg = degCheck;
